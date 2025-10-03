@@ -30,8 +30,8 @@ Here you can find information about me, my skills, and some of the projects I’
 ---
 
 ### 📫 Contact
-- 📧 Email: *your-email@example.com*  
-- 🌍 Portfolio: [Visit Website](https://YOUR-USERNAME.github.io/codewithmomand/)  
+- 📧 Email: momand0987650@gmail.com
+- 🌍 Portfolio: https://momand0987650-sketch.github.io/codewithmomand
 
 ---
 
