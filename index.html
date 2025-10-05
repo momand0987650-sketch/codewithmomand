@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithMomand</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="logo.png" class="logo-img" alt="Logo">
+
+        <ul id="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="skills.html">Skills Intro</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="digital-products.html">Digital Products</a></li>
+        </ul>
+
+        <!-- Hamburger Menu -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>🚀 CodeWithMomand</h1>
+        <p>Python Programming • Website Development • Bug Fixing • React • Automation</p>
+        <a href="services.html" class="btn">Explore Services</a>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about">
+        <h2>Why Choose Me?</h2>
+        <p>I deliver modern, secure, and high-performance solutions with guaranteed satisfaction.</p>
+    </section>
+
+    <!-- Services -->
+    <section>
+        <h2>My Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Python Programming</h3>
+                <p>Custom scripts, automation & backend systems.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Web Development</h3>
+                <p>Modern responsive websites and full-stack apps.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-bug"></i>
+                <h3>Bug Fixing</h3>
+                <p>Debugging and fixing errors in Python, JS, CSS, HTML.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-brands fa-react"></i>
+                <h3>React Development</h3>
+                <p>Interactive user interfaces with React.js.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-robot"></i>
+                <h3>Automation Scripts</h3>
+                <p>Automate repetitive tasks with clean, optimized code.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages -->
+    <section>
+        <h2>Packages</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <p class="price">$80</p>
+                <ul>
+                    <li>1 Page / Bug Fix</li>
+                    <li>Responsive Design</li>
+                    <li>Fast Delivery</li>
+                </ul>
+                <a href="https://t.me/codewithmomand" class="btn" target="_blank">
+                    <i class="fa-brands fa-telegram"></i> Order Now
+                </a>
+            </div>
+
+            <div class="pricing-card">
+                <h3>Standard</h3>
+                <p class="price">$150</p>
+                <ul>
+                    <li>3–4 Pages Website</li>
+                    <li>Modern UI/UX</li>
+                    <li>Performance Optimized</li>
+                </ul>
+                <a href="https://t.me/codewithmomand" class="btn" target="_blank">
+                    <i class="fa-brands fa-telegram"></i> Order Now
+                </a>
+            </div>
+
+            <div class="pricing-card">
+                <h3>Premium</h3>
+                <p class="price">$300</p>
+                <ul>
+                    <li>5–7 Pages Website</li>
+                    <li>Advanced Features</li>
+                    <li>E-commerce / API Integrations</li>
+                </ul>
+                <a href="https://t.me/codewithmomand" class="btn" target="_blank">
+                    <i class="fa-brands fa-telegram"></i> Order Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment -->
+    <section class="payment">
+        <h2>Payment Methods</h2>
+        <h3>💰 Pay Easily With</h3>
+        <ul>
+            <li>✔ Binance / Trust Wallet (USDT)</li>
+            <li>✔ Afghan Bank Account</li>
+            <li>✔ Hawala / Western Union</li>
+            <li>✔ Bank Transfer</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 CodeWithMomand | 100% Satisfaction Guarantee</p>
+        <div class="socials">
+            <a href="https://www.facebook.com/codewithmomand" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/code.withmomand" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@codewithmomand" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://x.com/codewithmomand" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://t.me/codewithmomand" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://github.com/momand0987650-sketch" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.fiverr.com/codewithmomand" target="_blank"><i class="fa-solid fa-briefcase"></i></a>
+            <a href="https://whop.com/@codewithmomand" target="_blank"><i class="fa-solid fa-store"></i></a>
+            <a href="https://linktr.ee/codewithmomand" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Hamburger -->
+    <script>
+        function toggleMenu() {
+            document.getElementById("nav-links").classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
